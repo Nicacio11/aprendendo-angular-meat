@@ -23,7 +23,8 @@ export class RadioComponent implements OnInit, ControlValueAccessor {
   }
   setValue(value: any){
     this.value = value
-    this.onChange(this.value)
+    //usado com template forms
+    //this.onChange(this.value)
   }
   writeValue(obj: any){
     this.value = obj
